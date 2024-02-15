@@ -15,6 +15,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ls_blobgen1'"
 		},
+		"ls_gen2_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'ls_gen2'"
+		},
+		"ls_gen2_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://gen2sa2024.dfs.core.windows.net/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -47,6 +55,12 @@
 					},
 					"ls_blobgen1_connectionString": {
 						"value": "[parameters('ls_blobgen1_connectionString')]"
+					},
+					"ls_gen2_accountKey": {
+						"value": "[parameters('ls_gen2_accountKey')]"
+					},
+					"ls_gen2_properties_typeProperties_url": {
+						"value": "[parameters('ls_gen2_properties_typeProperties_url')]"
 					}
 				}
 			},
