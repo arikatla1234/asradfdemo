@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adfdemo2024"
 		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
 		"ls_blobgen1_connectionString": {
 			"value": ""
 		}
