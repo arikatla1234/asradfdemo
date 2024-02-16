@@ -59,7 +59,7 @@
 				"source1 keyGenerate(output(emp_id as long),",
 				"     startAt: 1L,",
 				"     stepValue: 1L) ~> surrogateKey1",
-				"surrogateKey1 derive(emp_id = ERROR_FUNCTION('emp_id + sinkemptable#.outputs()[1].max_empid')) ~> derivedColumn1",
+				"surrogateKey1 derive(emp_id = emp_id + sinkemptable#outputs()[1].max_empid) ~> derivedColumn1",
 				"empsource sink(validateSchema: false,",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true,",
