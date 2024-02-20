@@ -1,0 +1,14 @@
+{
+	"name": "stringfunctions",
+	"properties": {
+		"type": "UDFLibrary",
+		"typeProperties": {
+			"sources": [],
+			"sinks": [],
+			"transformations": [],
+			"scriptLines": [
+				"gendervalues(string) as integer = iif(i1=='M',1,iif(i1=='F',0,-1))"
+			]
+		}
+	}
+}
