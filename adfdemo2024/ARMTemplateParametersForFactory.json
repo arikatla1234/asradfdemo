@@ -14,8 +14,14 @@
 		"ls_gen2_accountKey": {
 			"value": ""
 		},
+		"ls_sqlserver_connectionString": {
+			"value": ""
+		},
 		"ls_gen2_properties_typeProperties_url": {
 			"value": "https://gen2sa2024.dfs.core.windows.net/"
+		},
+		"Web1_properties_typeProperties_url": {
+			"value": "https://www.careerpower.in/states-and-capitals-of-india.html"
 		}
 	}
 }
